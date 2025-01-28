@@ -63,15 +63,6 @@ This service allows users to track price changes for OLX listings. Users can sub
     DB_DATABASE=ads_tracker
     DB_USERNAME=root
     DB_PASSWORD=root
-    
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.mailtrap.io
-    MAIL_PORT=2525
-    MAIL_USERNAME=<your-mailtrap-username>
-    MAIL_PASSWORD=<your-mailtrap-password>
-    MAIL_ENCRYPTION=null
-    MAIL_FROM_ADDRESS=your-email@example.com
-    MAIL_FROM_NAME="OLX Price Tracker"
    
 4. Build and start the Docker containers:
 
